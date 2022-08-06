@@ -1,0 +1,18 @@
+import Web3 from 'web3';
+
+let web3;
+
+if( typeof window !== 'undefined' && typeof window.ethereum !== 'undefined' ) {
+
+    //if the file is running on the browser and the user is having metamask installed.
+    web3 = new Web3(window.ethereum);
+
+} else {
+
+    //if the file is running on the server or the user doesn't have metamask installed.
+    const provider = new Web3.providers.HttpProvider('https://rinkeby.infura.io/v3/37ba19b722a04834aae33c7505c1bd53');
+    web3 = new Web3(provider);
+
+}
+
+export default web3;
