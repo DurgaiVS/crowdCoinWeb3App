@@ -1,0 +1,12 @@
+{
+    "0xFF1fC89F7178e60cDa7a5EE342Cc9c80cD9A3F91":{
+        "name":"Durgai",
+        "campaignName":"TestCampaign",
+        "campaignDescription":"This is a test campaign"
+    },
+    "0x3A08fc8eA43637097F1D1779401B84D9f6D5D93d":{
+        "name": "DVS",
+        "campaignName": "Movie making",
+        "campaignDescription": "Making a crowdfunding movie"
+    }
+}
